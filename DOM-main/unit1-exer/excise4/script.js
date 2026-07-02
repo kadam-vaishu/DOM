@@ -1,0 +1,2 @@
+let img=document.getElementById("myImage")
+img.src="https://static.vecteezy.com/system/resources/thumbnails/059/016/203/small_2x/serene-landscape-featuring-tranquil-lake-wooden-boat-and-vibrant-autumn-foliage-with-mount-fuji-in-background-scene-evokes-sense-of-peace-and-natural-beauty-photo.jpeg";

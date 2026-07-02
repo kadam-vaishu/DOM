@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My to do list</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css"">
+</head>
+<body>
+
+<div class="container">
+    <div class="head">
+        <h1><i class="fa-solid fa-check-circle"></i> My to do list</h1>
+    </div>
+
+    <div id="new">
+        <input id="taskInput" type="text" placeholder="What needs to be done" class="text">
+        <button id="addBtn" class="btn">
+            <i class="fas fa-plus" color="white"></i>
+        </button>
+    </div>
+
+    <div class="filters">
+        <button id="allBtn" class="filterBtn active" data-filter="all">All</button>
+        <button id="activeBtn" class="filterBtn" data-filter="active">Active</button>
+        <button id="completedBtn" class="filterBtn" data-filter="completed">Completed</button>
+    </div>
+
+    <div>
+        <ul id="taskList">
+            <!-- <li><input type="checkbox"><span class="delete-btn"></span></li> -->
+        </ul>
+    </div>
+    <div class="footer">
+    <span id="taskCount">0 tasks left</span>
+
+    <button id="clearCompletedBtn">Clear Completed</button>
+    <button id="markAllBtn">Mark All</button>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
